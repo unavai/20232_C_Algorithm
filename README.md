@@ -42,11 +42,12 @@ https://github.com/tony9402/baekjoon - 코딩테스트 대비 문제집 with Bae
 2. 파일을 Git 스테이징 영역에 추가
 
 
-     `git add week1/example.md`
+     `git add .`
+     `git add 파일명`
 
    
 
-3. 원격 저장소를 (origin)이라는 이름으로 설정
+4. 원격 저장소를 (origin)이라는 이름으로 설정
 
 
     `git remote add origin https://github.com/gnbhub/20232_python_Algorithm.git`
@@ -54,13 +55,13 @@ https://github.com/tony9402/baekjoon - 코딩테스트 대비 문제집 with Bae
 
     
 
-4. 원격 저장소 생성 확인
+5. 원격 저장소 생성 확인
 
 
     `git remote -v`
     <br>
 
-5. 스테이징 영역에 있는 파일들을 -m 옵션으로 메세지와 함께 커밋
+6. 스테이징 영역에 있는 파일들을 -m 옵션으로 메세지와 함께 커밋
 
 
     `git commit -m "write commit message"`
@@ -68,7 +69,7 @@ https://github.com/tony9402/baekjoon - 코딩테스트 대비 문제집 with Bae
 
 
 
-6. 원격 저장소에 로컬 변동 사항 저장 ( origin 의 master branch에 push )
+7. 원격 저장소에 로컬 변동 사항 저장 ( origin 의 master branch에 push )
 
 
     `git push -u origin master`
